@@ -354,13 +354,13 @@ margin-left: 1rem;
 
 /* Second image (service) */
 .bgimg-2 {
-  background-image: url('/assets/img/goodman.jpg');
+  background-image: url('../img/goodman.jpg');
   height: 50vh;
 }
 
 /* Third image (Contact) */
 .bgimg-3 {
-  background-image: url('/assets/img/peopleWorking.jpg');
+  background-image: url('../img/peopleWorking.jpg');
   height: 50vh;
 }
 
