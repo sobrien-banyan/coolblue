@@ -174,8 +174,8 @@ function navBarBtn(n) {
 // random picture selector for top img 
 function picSelector() {
     //  random pic selector
-    const mainPics = ["url('../assets/img/hvac-rooftop-1.jpg')", "url('../assets/img/hvac-fan.jfif')"];
-  const mainPics2 = ["url('../assets/img/fire-ice-1.jpg')", "url('../assets/img/truck-1.jpg')"];
+    const mainPics = ["url('./resources/assets/img/hvac-rooftop-1.jpg')", "url('./resources/assets/img/hvac-fan.jfif')"];
+  const mainPics2 = ["url('./resources/assets/img/fire-ice-1.jpg')", "url('./resources/assets/img/truck-1.jpg')"];
   $('.bgimg-1-1').css({'background-image': mainPics[Math.floor(Math.random(mainPics.length) * 2)]})
   $('.bgimg-1-2').css({'background-image': mainPics2[Math.floor(Math.random(mainPics.length) * 2)]})
 
